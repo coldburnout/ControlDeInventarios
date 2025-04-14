@@ -7,3 +7,9 @@ def index(request):
 
 def personal(request):
     return render(request, 'dashboard/personal.html')
+
+def productos(request):
+    return render(request, 'dashboard/productos.html')
+
+def ordenes(request):
+    return render(request, 'dashboard/ordenes.html')
